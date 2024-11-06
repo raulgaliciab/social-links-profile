@@ -1,0 +1,39 @@
+:root {
+  --grey-900: #141414;
+  --grey-800: #1F1F1F;
+  --grey-700: #333333;
+  --green-primary: #C4F82A;
+  --white-primary: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', system-ui;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 579px;
+  background-color: var(--grey-800);
+}
+
+.header h1 {
+  color: var(--white-primary);
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.header .header__location {
+  color: var(--green-primary);
+}
+
+.header .header__description {
+  color: var(--white-primary);
+  font-size: 14px;
+} 
