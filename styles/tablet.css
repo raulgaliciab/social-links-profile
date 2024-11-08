@@ -1,0 +1,22 @@
+@media ((min-width: 768px) and (max-width: 1280px)) {
+  main {
+    width: 45.6rem;
+    height: 61.1rem;
+    padding: 4rem;
+  }
+
+  .header__information-container {
+    width: 37.6rem;
+    height: 6.1rem;
+  }
+
+  .socialMedia_container {
+    width: 37.6rem;
+    height: 28.9rem;
+  }
+
+  .socialMedia_container li {
+    width: 37.6rem;
+    height: 4.5rem;
+  }
+}
